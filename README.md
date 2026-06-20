@@ -75,23 +75,67 @@ OOP Concepts Implemented
 
 Project Structure
 
-```text
-src/
-├── Admin
-├── User
-├── Member
-├── Resource
-├── Book
-├── Ebook
-├── LibraryManager
-├── BorrowRecord
-├── FineManager
-├── Notification
-├── ReportGenerator
-├── AdvancedSearch
-├── AdminAnalytics
-└── Security Utilities
-```
+Library-Management-System/
+│
+├── src/
+│   ├── main.cpp
+│   ├── Admin.cpp
+│   ├── AdminAnalytics.cpp
+│   ├── AdvancedSearch.cpp
+│   ├── AuditLogger.cpp
+│   ├── Book.cpp
+│   ├── BookCopies.cpp
+│   ├── BookRating.cpp
+│   ├── BorrowExtension.cpp
+│   ├── BorrowRecord.cpp
+│   ├── Ebook.cpp
+│   ├── FineManager.cpp
+│   ├── InputHelper.cpp
+│   ├── LibraryManager.cpp
+│   ├── LibraryManagementQtApp.cpp
+│   ├── Member.cpp
+│   ├── Notification.cpp
+│   ├── ReportGenerator.cpp
+│   ├── Resource.cpp
+│   ├── SecurityUtils.cpp
+│   ├── User.cpp
+│   ├── Usermanager.cpp
+│   └── Validator.cpp
+│
+├── include/
+│   ├── Admin.h
+│   ├── AdminAnalytics.h
+│   ├── AdvancedSearch.h
+│   ├── AuditLogger.h
+│   ├── Book.h
+│   ├── BookCopies.h
+│   ├── BookRating.h
+│   ├── BorrowExtension.h
+│   ├── BorrowRecord.h
+│   ├── Ebook.h
+│   ├── FineManager.h
+│   ├── InputHelper.h
+│   ├── LibraryManager.h
+│   ├── Member.h
+│   ├── Notification.h
+│   ├── ReportGenerator.h
+│   ├── Resource.h
+│   ├── SecurityUtils.h
+│   ├── SYSTEMEXCEPTIONS.h
+│   ├── User.h
+│   ├── Usermanager.h
+│   └── Validator.h
+│
+├── docs/
+│   ├── REPORT_CEP.pdf
+│   ├── README_CEP.txt
+│   └── UML_CEP.mdj
+│
+├── CMakeLists.txt
+├── LibraryManagementQtApp.pro
+├── README.md
+├── LICENSE
+└── .gitignore
 
 How to Run
 
