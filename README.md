@@ -73,8 +73,10 @@ OOP Concepts Implemented
 * Composition
 * Exception Handling
 
+
 Project Structure
 
+```text
 Library-Management-System/
 │
 ├── src/
@@ -136,6 +138,8 @@ Library-Management-System/
 ├── README.md
 ├── LICENSE
 └── .gitignore
+```
+
 
 How to Run
 
